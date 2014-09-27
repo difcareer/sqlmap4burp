@@ -23,7 +23,13 @@
 
 加入配置中写："--level 3",真实执行时是：sqlmap.py -r $file --level 3
 
-回到
+回到burpsuite主页面，在任何请求连接上右键，会看到新增"send to Sqlmap"，点击后会开启cmd窗口，针对此请求进行sql注入检测
+
+注意：
+
+1. 本插件在windows下开发并使用，其他系统需要自行做一些调整
+
+2. 关于本插件有任何问题，欢迎联系我：latershowwwc@gmail.com 
 
 
 
