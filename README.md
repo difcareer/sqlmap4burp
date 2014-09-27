@@ -4,9 +4,9 @@ config:
 
 1. install sqlmap link is:http://sqlmap.org/
 
-2. set sqlmap.py is in your path
+2. set sqlmap.py to your path
 
-3. download dependent jar:commons-io-2.4.jar,put it in your burpsuite java plugin's classpath
+3. download the dependent jar:commons-io-2.4.jar,put it in your burpsuite java plugin's classpath
 
 4. build this project to a single jar,add this jar to burpsuite's java plugin
 
