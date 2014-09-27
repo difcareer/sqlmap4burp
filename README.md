@@ -1,6 +1,7 @@
 一款集成sqlmap到burpsuite中的插件（整合两大神器）
 
-在网上寻找类似的插件，发现了一款：https://code.google.com/p/gason/，不过对windows支持并不好，于是自己动手开发一款
+在网上寻找类似的插件，发现了一款：https://code.google.com/p/gason/
+不过对windows支持并不好，于是自己动手开发一款
 
 配置：
 
