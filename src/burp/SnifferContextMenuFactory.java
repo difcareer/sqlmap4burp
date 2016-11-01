@@ -38,6 +38,7 @@ public class SnifferContextMenuFactory implements IContextMenuFactory {
                 } catch (IOException e1) {
                     e1.printStackTrace();
                 }
+                System.out.println("sent to sqlMap");
                 new Thread(new SqlmapStarter()).start();
 
             }
