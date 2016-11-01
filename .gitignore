@@ -1,0 +1,4 @@
+/out
+/.idea
+*.class
+src/META-INF/*

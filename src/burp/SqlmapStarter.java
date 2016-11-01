@@ -26,7 +26,13 @@ public class SqlmapStarter implements Runnable {
                 batFile.createNewFile();
             }
             FileUtils.writeByteArrayToFile(batFile, sb.toString().getBytes());
-            Runtime.getRuntime().exec("cmd /c start " + Context.getTempBatName(false));
+            boolean isWindows= EnvUtil.isWindows();
+            String command="sh " + Context.getTempBatName(false);
+            if(isWindows){
+                command="cmd /c start " + Context.getTempBatName(false);
+            }
+            System.out.println("use command: "+command);
+            Runtime.getRuntime().exec(command);
         } catch (IOException e) {
             e.printStackTrace();
         }
