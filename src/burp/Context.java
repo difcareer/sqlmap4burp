@@ -20,7 +20,7 @@ public class Context {
     public static String getTempReqName(boolean reGet) {
         if (tempReqName == null || reGet) {
             long ms = System.currentTimeMillis();
-            tempReqName = tempDir + "\\" + ms + ".req";
+            tempReqName = tempDir + "/" + ms + ".req";
         }
         return tempReqName;
     }
@@ -28,7 +28,7 @@ public class Context {
     public static String getTempBatName(boolean reGet){
         if (tempBatName == null || reGet) {
             long ms = System.currentTimeMillis();
-            tempBatName = tempDir + "\\" + ms + ".bat";
+            tempBatName = tempDir + "/" + ms + ".bat";
         }
         return tempBatName;
     }
