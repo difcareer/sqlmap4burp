@@ -29,7 +29,8 @@
 
 1. 本插件在windows下开发并使用，其他系统需要自行做一些调整
 
-2. 关于本插件有任何问题，欢迎联系我：latershowwwc@gmail.com 
+2. 关于本插件有任何问题，参考提问的智慧  http://tieba.github.io/common/howtoask.html， 再提issues
+
 
 
 
@@ -67,10 +68,5 @@ eg: config "--level 3" means "sqlmap -r $file --level 3"
 attentions:
 
 1. this tool is made on windows,other os need some modifications
-
-2. any questions,please contact me:latershowwwc@gmail.com
-
-
-
 
 
